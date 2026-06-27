@@ -130,6 +130,7 @@ sns.heatmap(df_clean.corr(numeric_only=True), annot=False, cmap="coolwarm")
 plt.title("\nКореляційна матриця ознак")
 plt.show()
 
+
 # 13. Виявлення пар з високою кореляцією
 # Згідно отриманий кореляцій (див. файл data/processed/heatmap.png), виглядає так, що пара ознак, яка має дуже високу кореляцію:
 # total_bedrooms ↔ households
